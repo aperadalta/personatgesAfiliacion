@@ -25,13 +25,13 @@
     margin-top: 10%;
 }
 
-.full:nth-child(1){background-image: url('/fotos/IMG_0875.jpg');}
-.full:nth-child(2){background-image: url('/fotos/IMG_0882.jpg');}
-.full:nth-child(3){background-image: url('/fotos/IMG_0884.jpg');}
-.full:nth-child(4){background-image: url('/fotos/IMG_0885.jpg');}
-.full:nth-child(5){background-image: url('/fotos/IMG_0886.jpg');}
-.full:nth-child(6){background-image: url('/fotos/IMG_0903.png');}
-.full:nth-child(7){background-image: url('/fotos/IMG_0982.png');}
+.full:nth-child(1){background-image: url('fotos/IMG_0875.jpg');}
+.full:nth-child(2){background-image: url('fotos/IMG_0882.jpg');}
+.full:nth-child(3){background-image: url('fotos/IMG_0884.jpg');}
+.full:nth-child(4){background-image: url('fotos/IMG_0885.jpg');}
+.full:nth-child(5){background-image: url('fotos/IMG_0886.jpg');}
+.full:nth-child(6){background-image: url('fotos/IMG_0903.png');}
+.full:nth-child(7){background-image: url('fotos/IMG_0982.png');}
 
 #first{
     left: 20%;
