@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.full{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    transition: transform 4s, opacity 4s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70vh;
+    opacity: 0;
+    transform: scale(0.1);
+}
+
+.full p{
+    margin-top: 20px;
+    width: 400px;
+}
+
+.full div{
+    margin-top: 10%;
+}
+
+.full:nth-child(1){background-image: url('/fotos/IMG_0875.jpg');}
+.full:nth-child(2){background-image: url('/fotos/IMG_0882.jpg');}
+.full:nth-child(3){background-image: url('/fotos/IMG_0884.jpg');}
+.full:nth-child(4){background-image: url('/fotos/IMG_0885.jpg');}
+.full:nth-child(5){background-image: url('/fotos/IMG_0886.jpg');}
+.full:nth-child(6){background-image: url('/fotos/IMG_0903.png');}
+.full:nth-child(7){background-image: url('/fotos/IMG_0982.png');}
+
+#first{
+    left: 20%;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.full:nth-child(2){right: 20%;}
+.full:nth-child(2) div{margin-left: 75%;}
+
+
+
+
+
+
+body{
+    height: 1500vh;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Personatges */
+
+#personatges{
+    position: fixed;
+    border-left: solid 5px rgb(53, 53, 53);
+    height: 370px;
+    bottom: 0;
+    left: 40px;
+}
+
+.pjs{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-left: -18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.pjs:nth-child(1){
+    height: 36px;
+    width: 36px;
+    margin-left: -21px;
+    border: 3px black solid;
+}
