@@ -32,6 +32,7 @@
 .full:nth-child(5){background-image: url('fotos/IMG_0886.jpg');}
 .full:nth-child(6){background-image: url('fotos/IMG_0903.png');}
 .full:nth-child(7){background-image: url('fotos/IMG_0982.png');}
+<<<<<<< HEAD
 
 .pjs:nth-child(1){background-image: url('fotos/IMG_0875.jpg');}
 .pjs:nth-child(2){background-image: url('fotos/IMG_0882.jpg');}
@@ -40,6 +41,8 @@
 .pjs:nth-child(5){background-image: url('fotos/IMG_0886.jpg');}
 .pjs:nth-child(6){background-image: url('fotos/IMG_0903.png');}
 .pjs:nth-child(7){background-image: url('fotos/IMG_0982.png');}
+=======
+>>>>>>> 5cd229aead40b8cf82dd2a13b3970c11f5340d49
 
 #first{
     opacity: 1;
@@ -102,6 +105,7 @@ body::-webkit-scrollbar {
     border: 3px rgb(39, 39, 39) solid;
     box-shadow: 0px 0px 10px 5px rgb(102, 186, 255);
 }
+
 
 hr{
     width: 300px;
