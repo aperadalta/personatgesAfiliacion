@@ -8,7 +8,7 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-    transition: transform 4s, opacity 4s;
+    transition: transform 2s, opacity 2s;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70vh;
@@ -25,26 +25,42 @@
     margin-top: 10%;
 }
 
-.full:nth-child(1){background-image: url('/fotos/IMG_0875.jpg');}
-.full:nth-child(2){background-image: url('/fotos/IMG_0882.jpg');}
-.full:nth-child(3){background-image: url('/fotos/IMG_0884.jpg');}
-.full:nth-child(4){background-image: url('/fotos/IMG_0885.jpg');}
-.full:nth-child(5){background-image: url('/fotos/IMG_0886.jpg');}
-.full:nth-child(6){background-image: url('/fotos/IMG_0903.png');}
-.full:nth-child(7){background-image: url('/fotos/IMG_0982.png');}
+.full:nth-child(1){background-image: url('fotos/IMG_0875.jpg');}
+.full:nth-child(2){background-image: url('fotos/IMG_0882.jpg');}
+.full:nth-child(3){background-image: url('fotos/IMG_0884.jpg');}
+.full:nth-child(4){background-image: url('fotos/IMG_0885.jpg');}
+.full:nth-child(5){background-image: url('fotos/IMG_0886.jpg');}
+.full:nth-child(6){background-image: url('fotos/IMG_0903.png');}
+.full:nth-child(7){background-image: url('fotos/IMG_0982.png');}
+
+.pjs:nth-child(1){background-image: url('fotos/IMG_0875.jpg');}
+.pjs:nth-child(2){background-image: url('fotos/IMG_0882.jpg');}
+.pjs:nth-child(3){background-image: url('fotos/IMG_0884.jpg');}
+.pjs:nth-child(4){background-image: url('fotos/IMG_0885.jpg');}
+.pjs:nth-child(5){background-image: url('fotos/IMG_0886.jpg');}
+.pjs:nth-child(6){background-image: url('fotos/IMG_0903.png');}
+.pjs:nth-child(7){background-image: url('fotos/IMG_0982.png');}
 
 #first{
-    left: 20%;
     opacity: 1;
     transform: scale(1);
 }
 
-.full:nth-child(2){right: 20%;}
-.full:nth-child(2) div{margin-left: 75%;}
+.full:nth-child(odd){left: 20%;}
+
+.full:nth-child(even){right: 20%;}
+.full:nth-child(even) div{margin-left: 75%;}
 
 
 
-
+h1{
+    margin-left: 30%;
+    margin-top: 20vh;
+    position: fixed;
+    font-size: 4em;
+    opacity: 0;
+    transition: opacity 4s;
+}
 
 
 body{
@@ -61,24 +77,33 @@ body::-webkit-scrollbar {
 #personatges{
     position: fixed;
     border-left: solid 5px rgb(53, 53, 53);
-    height: 370px;
+    height: 500px;
     bottom: 0;
-    left: 40px;
+    left: 70px;
 }
 
 .pjs{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: grey;
-    margin-left: -18px;
-    margin-top: 10px;
-    cursor: pointer;
+    border: 2px solid grey;
+    margin-left: -23px;
+    margin-top: 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pjs:nth-child(1){
-    height: 36px;
-    width: 36px;
-    margin-left: -21px;
-    border: 3px black solid;
+    height: 46px;
+    width: 46px;
+    margin-left: -26px;
+    border: 3px rgb(39, 39, 39) solid;
+    box-shadow: 0px 0px 10px 5px rgb(102, 186, 255);
+}
+
+hr{
+    width: 300px;
+    margin: 3px 0 10px 0;
 }
